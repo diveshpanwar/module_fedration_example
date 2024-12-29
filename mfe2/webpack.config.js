@@ -6,6 +6,8 @@ module.exports = {
     mode: 'development',
     entry: './src/index.js',
     output: {
+        filename: 'bundle.js',
+        clean: true,
         publicPath: 'auto',
     },
     devServer: {
